@@ -1,0 +1,9 @@
+node_modules/
+
+.env
+
+*.log
+
+swagger-output.json
+
+.DS_Store
