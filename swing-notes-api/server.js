@@ -19,10 +19,10 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 app.use('/api/user', require('./routes/userRoutes'));
 app.use('/api/notes', require('./routes/noteRoutes'));
 
-// 💥 Lägg errorHandler sist
+
 app.use(errorHandler);
 
-// MongoDB
+
 mongoose.connect(process.env.MONGO_URI)
   .then(() => {
     app.listen(process.env.PORT, () =>

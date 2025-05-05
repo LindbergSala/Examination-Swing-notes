@@ -6,7 +6,7 @@ Ett backend-API för att skapa, läsa, uppdatera och ta bort anteckningar med in
 
 ### 1. Klona projektet
 ```bash
-git clone https://github.com/ditt-konto/swing-notes-api.git
+git clone https://github.com/LindbergSala/Examination-Swing-notes/tree/main
 cd swing-notes-api
 ```
 
@@ -29,7 +29,8 @@ node server.js
 
 ### 5. Swagger-dokumentation
 Gå till:  
-[http://localhost:5000/api-docs](http://localhost:5000/api-docs)
+[http://localhost:5000/api-docs]
+(http://localhost:5000/api-docs)
 
 ---
 
